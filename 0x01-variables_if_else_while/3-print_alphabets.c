@@ -6,18 +6,13 @@
  */
 int main(void)
 {
-	int i, j;
-	char low[26] "abcdefghijklmnopqrstuvwxyz";
-char upper[26] "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-for (i = 0; i < 26; i++)
+	int i;
+	char low[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+	for (i = 0; i < 52; i++)
 	{
 		putchar(low[i]);
 	}
-for (j = 0; i < 26; i++)
-{
-putchar(upper[i]);
-}
 putchar('\n');
 return (0);
 }

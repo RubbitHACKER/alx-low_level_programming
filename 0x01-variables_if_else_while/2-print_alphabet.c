@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main - A program that prints the alphabet in lowercase
  *
@@ -9,7 +10,7 @@ int main(void)
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-²;	for (i = 0; i < 26; i++)
+;	for (i = 0; i < 26; i++)
 	{
 		putchar(alp[i]);
 	}

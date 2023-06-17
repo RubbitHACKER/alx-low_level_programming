@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main - print all possible different combinition
  *
@@ -9,11 +10,10 @@ int main(void)
 	int i, j;
 
 	for (i = 48; i <= 56; i++)
-
 	{
-		for (j = 49; j <= 56; j++)
+		for (j = 49; j <= 57; j++)
 		{
-			if (m < n)
+			if (m > n)
 			{
 				putchar(n);
 				putchar(m);

@@ -1,2 +1,1 @@
-hello_world
-hyy
+coding with C

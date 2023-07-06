@@ -5,7 +5,7 @@
  *
  * Return :factorial of n (-1 if error)
  */
-int factorial(int i)
+int factorial(int n)
 {
 	if(n<0)
 		return(-1);
